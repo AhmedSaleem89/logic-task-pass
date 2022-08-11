@@ -1,0 +1,4 @@
+name = input("Enter Your String!")
+char = input("Enter the character!")
+
+print(name.translate({ord(char): None}))
