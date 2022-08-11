@@ -1,0 +1,18 @@
+num = input ("input the max range")
+num = int (num)
+
+def pri (numm):
+    p=0
+    for i in range(2, numm):
+        if (numm % i) == 0:
+            p=p+1
+
+    if p>=1:
+        prii=1
+    else:
+        prii=0
+    return (prii)
+
+for i in range (2,int(num)):
+    if (pri(i))==0:
+        print(i)
